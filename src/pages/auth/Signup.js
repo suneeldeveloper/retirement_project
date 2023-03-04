@@ -6,14 +6,12 @@ const Signup = () => {
   return (
     <>
       <div className="container">
-      <div className="navbar">
-          <Link to="/home" className="logo">Retirement-App</Link>
+        <div className="navbar">
+          <Link to="/home" className="logo">
+            Retirement-App
+          </Link>
         </div>
 
-
-
-
-        
         <div className="form_box">
           <h1 className="heading">Signup</h1>
           <form>

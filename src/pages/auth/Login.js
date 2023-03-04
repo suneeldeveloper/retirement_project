@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Auth.css";
-import Navbar from "../../components/Navbar/Navbar";
 
 const Login = () => {
   return (
     <>
       <div className="container">
+
         <div className="navbar">
           <Link to="/home" className="logo">Retirement-App</Link>
         </div>
@@ -32,6 +32,7 @@ const Login = () => {
             <button className="primary_btn">Login</button>
           </form>
         </div>
+        
       </div>
     </>
   );

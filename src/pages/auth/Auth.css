@@ -55,6 +55,7 @@
   font-size: 17px;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .primary_btn:hover{
@@ -62,6 +63,9 @@
   color: #ffff;
   border: 1px solid #333;
 }
+
+
+
 
 @media screen and (max-width: 468px) {
   .form_box {

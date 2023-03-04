@@ -69,11 +69,17 @@
   color: #fff;
 }
 
+
+
+
+
 @media (max-width: 768px) {
   .filter_feilds {
     max-width: 100%;
   }
 }
+
+
 @media (max-width: 468px) {
   .filter_feilds .secondary_btn {
     width: 23%;
