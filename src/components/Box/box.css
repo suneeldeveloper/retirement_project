@@ -1,0 +1,19 @@
+.box{
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1.5rem;
+    background-color: #fcfbfa
+    ;
+}
+.box .feilds{
+    margin-bottom: 2rem;
+}
+.box .feilds .title{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.box .feilds .detail{
+    color: var(--border-color);
+    font-size: 1.1rem;
+}

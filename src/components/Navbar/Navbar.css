@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  padding: 0.7% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--border-color);
+}
+.navbar .logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--border-color);
+  text-decoration: none;
+}
+
+
+@media (max-width: 468px) {
+  .navbar {
+    padding: 3%;
+  }
+  .navbar .logo {
+    font-size: 20px;
+  }
+}

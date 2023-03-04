@@ -1,0 +1,36 @@
+.update_container{
+  padding: 5%;
+}
+
+  table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+  }
+  table thead{
+    background-color: var(--border-color);
+  }
+  
+  table thead tr th {
+    border: 2px solid var(--text-color);
+    padding: 15px 8px;
+    color: #fff;
+  }
+  table tbody tr th{
+    border: 2px solid var(--border-color);
+    padding: 10px 8px;
+    font-size: 14px;
+    color: 3333;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+  @media (max-width: 768px){
+    .table_container {
+      overflow: auto;
+    }
+  }
